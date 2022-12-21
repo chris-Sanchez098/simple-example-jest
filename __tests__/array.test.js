@@ -33,6 +33,8 @@ describe("reverseList", () => {
   });
 });
 
-test("reverseList to lista3 => [hola,3,2,1,b,a]", () => {
-  expect(reverseList(lista3)).toStrictEqual(["hola", 3, 2, 1, "b", "a"]);
+describe("reverseList", () => {
+  test("reverseList to lista3 => [hola,3,2,1,b,a]", () => {
+    expect(reverseList(lista3)).toStrictEqual(["hola", 3, 2, 1, "b", "a"]);
+  });
 });

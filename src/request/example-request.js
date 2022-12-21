@@ -1,5 +1,5 @@
 const checkResponseApi = async () => {
-  const res = await fetch("https://pokeapi.co/api/v2/pokemon/");
+  return await fetch("https://pokeapi.co/api/v2/pokemon/");
 };
 
 const getPokemonName = async (name) => {

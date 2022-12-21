@@ -4,9 +4,9 @@ const {
 } = require("../src/request/example-request");
 
 describe("checkResponseApi", () => {
-  test("Other", async () => {
+  test("check response pokemon API", async () => {
     checkResponseApi().then((data) => {
-      expect(data).resolve();
+      expect(data.status).toBe(200);
     });
   });
 });
