@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "test obj": "jest ./__tests__/objects.test.js",
-    "test arr": "jest ./__tests__/array.test.js",
     "test op": "jest ./__tests__/operations.test.js",
-    "test req": "jest ./__tests__/request.test.js",
-    "test change": "jest -o"
+    "test arr": "jest ./__tests__/array.test.js",
+    "test obj": "jest ./__tests__/objects.test.js",
+    "test req": "jest ./__tests__/request.test.js"
   },
   "keywords": [
     "jest",
