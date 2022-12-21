@@ -24,4 +24,5 @@ Para este ejemplo poseemos varios test (operaciones básicas, arrays, objetos, r
 
 ## Documentación JEST
 
-[Jest docs](https://jestjs.io/docs/getting-started)
+[Jest docs - getting started](https://jestjs.io/docs/getting-started)
+[Jest docs - expect](https://jestjs.io/docs/expect)

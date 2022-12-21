@@ -12,7 +12,7 @@ describe("checkResponseApi", () => {
 });
 
 describe("getPokemonName", () => {
-  test("the data is peanut butter", async () => {
+  test("the data is pokemon ditto", async () => {
     getPokemonName("ditto").then((data) => {
       res = data.json();
       res.then((pok) => {

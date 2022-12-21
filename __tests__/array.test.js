@@ -10,7 +10,7 @@ const lista3 = ["a", "b", 1, 2, 3, "hola"];
 const lista4 = ["d", "5", "f"];
 
 describe("SumList", () => {
-  test("adds 1 + 2 to equal 3", () => {
+  test("sum items of lista1 to equal 28", () => {
     expect(sumList(lista1)).toBe(28);
   });
 });
