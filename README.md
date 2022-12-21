@@ -22,6 +22,6 @@ Para este ejemplo poseemos varios test (operaciones básicas, arrays, objetos, r
   npm test <op | arr | obj | req>
 ```
 
-## Documentación del API
+## Documentación JEST
 
 [Jest docs](https://jestjs.io/docs/getting-started)
